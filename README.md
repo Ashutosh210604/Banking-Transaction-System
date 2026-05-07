@@ -48,26 +48,27 @@ The system follows a controller-service-model pattern:
    ```bash
    npm install
 
- 3.Configure environment variables in a .env file:
+3.Configure environment variables in a .env file:
+ 
     ```bash
     
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_super_secret_key
-    EMAIL_USER=your_email
-    CLIENT_ID=google_oauth_client_id
-    CLIENT_SECRET=google_oauth_client_secret
-    REFRESH_TOKEN=google_oauth_refresh_token
+        MONGO_URI=your_mongodb_connection_string
+        JWT_SECRET=your_super_secret_key
+        EMAIL_USER=your_email
+        CLIENT_ID=google_oauth_client_id
+        CLIENT_SECRET=google_oauth_client_secret
+        REFRESH_TOKEN=google_oauth_refresh_token
 
 4. Start the server:
    ```bash
    npm run dev
 
 ### API Endpoints
-##Auth
+Auth
+
      ```bash
      
-        POST /api/auth/register
-- Create a new user
+        POST /api/auth/register- Create a new user
 
 
 
