@@ -48,25 +48,26 @@ The system follows a controller-service-model pattern:
    ```bash
    npm install
 
-3.Configure environment variables in a .env file:
- 
-    ```.env
-    
-        MONGO_URI=your_mongodb_connection_string
-        JWT_SECRET=your_super_secret_key
-        EMAIL_USER=your_email
-        CLIENT_ID=google_oauth_client_id
-        CLIENT_SECRET=google_oauth_client_secret
-        REFRESH_TOKEN=google_oauth_refresh_token
+3. Configure environment variables in a .env file:
 
+    ```Code snippet
+    
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_super_secret_key
+    EMAIL_USER=your_email
+    CLIENT_ID=google_oauth_client_id
+    CLIENT_SECRET=google_oauth_client_secret
+    REFRESH_TOKEN=google_oauth_refresh_token
+   
 4. Start the server:
     ```
    npm run dev
 
 🛡 Security & Integrity
+
     Immutability: The ledger entries cannot be updated or deleted via the API (enforced by Mongoose hooks).
 
-Validation: Strict schema validation for currency formats, email patterns, and non-negative transaction amounts.
+    Validation: Strict schema validation for currency formats, email patterns, and non-negative transaction amounts.
 
 
 
