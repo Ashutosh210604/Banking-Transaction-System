@@ -42,4 +42,5 @@ The system follows a controller-service-model pattern:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/bank-ledger-system.git](https://github.com/yourusername/bank-ledger-system.git)
+   git clone [https://github.com/Ashutosh210604/Banking-Transaction-System.git](https://github.com/Ashutosh210604/Banking-Transaction-System.git)
+
