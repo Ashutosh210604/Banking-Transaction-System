@@ -65,9 +65,9 @@ The system follows a controller-service-model pattern:
 
 🛡 Security & Integrity
 
-    Immutability: The ledger entries cannot be updated or deleted via the API (enforced by Mongoose hooks).
+-Immutability: The ledger entries cannot be updated or deleted via the API (enforced by Mongoose hooks).
 
-    Validation: Strict schema validation for currency formats, email patterns, and non-negative transaction amounts.
+-Validation: Strict schema validation for currency formats, email patterns, and non-negative transaction amounts.
 
 
 
