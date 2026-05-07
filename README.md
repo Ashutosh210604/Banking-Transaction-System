@@ -48,7 +48,7 @@ The system follows a controller-service-model pattern:
    ```bash
    npm install
 
-3.Configure environment variables in a .env file:
+ 3.Configure environment variables in a .env file:
     ```bash
     
     MONGO_URI=your_mongodb_connection_string
@@ -64,7 +64,10 @@ The system follows a controller-service-model pattern:
 
 ### API Endpoints
 ##Auth
-POST /api/auth/register - Create a new user.
+     ```bash
+     
+        POST /api/auth/register
+- Create a new user
 
 
 
