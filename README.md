@@ -50,7 +50,7 @@ The system follows a controller-service-model pattern:
 
 3.Configure environment variables in a .env file:
  
-    ```bash
+    ```.env
     
         MONGO_URI=your_mongodb_connection_string
         JWT_SECRET=your_super_secret_key
@@ -60,15 +60,14 @@ The system follows a controller-service-model pattern:
         REFRESH_TOKEN=google_oauth_refresh_token
 
 4. Start the server:
-   ```bash
+    ```
    npm run dev
 
-### API Endpoints
-Auth
+🛡 Security & Integrity
+    Immutability: The ledger entries cannot be updated or deleted via the API (enforced by Mongoose hooks).
 
-     ```bash
-     
-        POST /api/auth/register- Create a new user
+Validation: Strict schema validation for currency formats, email patterns, and non-negative transaction amounts.
+
 
 
 
